@@ -1,4 +1,4 @@
-FROM ghcr.io/ollama/ollama
+FROM ollama/ollama
 
 # Précharger les modèles
 RUN ollama pull llama3
